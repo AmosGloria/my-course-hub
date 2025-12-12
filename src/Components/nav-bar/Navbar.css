@@ -1,0 +1,47 @@
+.navbar{
+    background-color: var(--tertiary-color);
+    height:50px;
+    display:flex;
+    align-items: center;;
+    font-family: 'Inter', sans-serif;
+    justify-content:space-evenly
+}
+
+ul{
+    display:flex;
+    gap:20px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contact-box{
+    background-color: var(--primary-color);
+    width: 132.47px;
+    height: 49px;
+    opacity: 100%;
+    top: 6.5px;
+    gap:6px;
+    border-radius: 60px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--tertiary-color)
+
+}
+
+.navbar-icons{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px
+}
+

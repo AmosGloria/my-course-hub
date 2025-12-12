@@ -12,3 +12,8 @@
 ## Every web application project typically includes this file called package.json, which serves as a central repository for important project metadata. This file holds information such as dependencies, development dependencies, and peer dependencies, all of which are essential for managing the packages required to build, run, and maintain your project.
 
 ## Vite: Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+
+## Rules of React
+## It must be pascal casing - each word is capital letter, both for function names and file names
+## Must return at most 1 parent element
+## Data attributes must be camel case: 
