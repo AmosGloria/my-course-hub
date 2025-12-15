@@ -7,7 +7,8 @@ import LinkedIn from '../../assets/Logos/LinkedIn.svg';
 
 export default function PageHearder() {
   return (
-    <header className='page-header'>
+   <div>
+     <header className='page-header'>
       <div className='page-header__socials'>
         <div className='page-header__language-selector'>
           <img src={English} alt='english'/>
@@ -29,5 +30,6 @@ export default function PageHearder() {
              </div>
       </div>
     </header>
+   </div>
   )
 }

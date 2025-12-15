@@ -1,0 +1,40 @@
+.hero-button{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.hero-button__number {
+  display: block;
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+  font-size: 2.125rem; 
+  line-height: 1;
+  letter-spacing: normal; 
+  color: var(--number-color);
+}
+
+.hero-button__text{
+font-family: 'Sora', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: normal;
+text-transform: capitalize;
+color: var(--text-color);
+}
+
+.hero-button--default {
+  --number-color:  #FF9E0E;
+  --text-color: #333931;
+}
+
+.hero-button--light {
+  --number-color: #00BEAE;
+  --text-color: #17254E;
+}
+
+.hero-button--primary {
+  --number-color: #1d4ed8;
+  --text-color: #FFFFFF;
+}
+

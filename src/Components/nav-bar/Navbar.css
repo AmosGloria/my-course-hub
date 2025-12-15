@@ -25,12 +25,10 @@ a{
 .contact-box{
     background-color: var(--primary-color);
     width: 132.47px;
-    height: 49px;
+    height: 42px;
     opacity: 100%;
-    top: 6.5px;
     gap:6px;
     border-radius: 60px;
-    position:relative;
     display:flex;
     justify-content: center;
     align-items: center;
