@@ -92,7 +92,7 @@ a{
 }
 
 .yellow-layout{
-    margin-left: 32.4rem;
+    margin-left: 424px;
 }
 
 .browse-courses__watch{
@@ -112,6 +112,27 @@ position: relative;
 top: -77rem;
 left: 44rem;
 border: none;
+}
+
+.image-button{
+width: 339.20px;
+height: 94px;
+position: relative;
+top: 626px;
+left: 917.2px;
+border-radius: 1000px;
+background-color: #FFFFFF;
+border: none;
+}
+
+.hero-container__btn{
+position: relative;
+width: 339.20px;
+height: 94px;
+top: 26px;
+left: 17.2px;
+border-radius: 1000px;
+
 }
 
 .hero-container__picture2-container{
@@ -139,4 +160,30 @@ border-bottom-left-radius: 144.97px;
     background-color: #FF9500;
     width: 12.095rem;
     height: 3.687rem;
+}
+
+.hero-button--light.hero-container__btn :nth-child(1){
+font-family: 'Sora';
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+letter-spacing: 0%;
+vertical-align: middle;
+margin-right: 178px;
+}
+
+.hero-button--light.hero-container__btn :nth-child(2){
+font-family: 'Sora';
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+letter-spacing: 0%;
+}
+
+.hero-button--light.hero-container__btn :nth-child(3){
+width: 136px;
+height: 40px;
+top: -13px;
+left: 18.21px;
+position: relative;
 }

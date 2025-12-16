@@ -35,7 +35,7 @@ color: var(--text-color);
 }
 
 .hero-button--light {
-  background-color: #E6FFFA;
+  background-color: #ffff;
   --number-color: #00BEAE;
   --text-color: #17254E;
 }

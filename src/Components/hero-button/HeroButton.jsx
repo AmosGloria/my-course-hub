@@ -7,13 +7,17 @@ export default function HeroButton(
     text, 
     variant="default", 
     className='', 
+    img,
     onclick={},
     ...rest}) {
   return (
     <>
         <button className={`hero-button hero-button--${variant} ${className}`} {...rest}>       
         <span className='hero-button__number'>{number}</span>
-        <span className='hero-button__text'>{text}</span>      
+        <span className='hero-button__text'>{text}</span>  
+        <img
+        src={img}
+        alt=""/>    
          </button>
     </>
   )
