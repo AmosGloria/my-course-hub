@@ -1,6 +1,6 @@
 .hero-button{
     background-color: #FFFFFF;
-    border-radius: 50px;
+    
 }
 
 .hero-button__number {
@@ -23,18 +23,26 @@ text-transform: capitalize;
 color: var(--text-color);
 }
 
+.hero-button {
+  border: none;
+}
+
 .hero-button--default {
-  --number-color:  #FF9E0E;
+  background-color: #FFFFFF;
+  border-radius: 3.125rem;
+  --number-color: #FF9E0E;
   --text-color: #333931;
 }
 
 .hero-button--light {
+  background-color: #E6FFFA;
   --number-color: #00BEAE;
   --text-color: #17254E;
 }
 
 .hero-button--primary {
+  background-color: #FF9500;
+  border-radius: 3.75rem;
   --number-color: #1d4ed8;
   --text-color: #FFFFFF;
 }
-

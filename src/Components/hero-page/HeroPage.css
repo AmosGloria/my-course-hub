@@ -75,16 +75,68 @@ background-color: #FF9500;
 }
 
 .hero-container__sun{
-top: -888.3px;
+top: -928.3px;
 left: 1135.8px;
 position: relative;
+}
+
+.browse-courses{   
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 5.8rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.yellow-layout{
+    margin-left: 32.4rem;
+}
+
+.browse-courses__watch{
+    background-color: #00BEAE;
+    width: 3.38rem;
+    height: 3.38rem;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-container__button{
 width: 208.91px;
 height: 80px;
 position: relative;
-top: -64rem;
+top: -68rem;
 left: 44rem;
 border: none;
+}
+
+.hero-container__picture2-container{
+width: 303px;
+height: 386px;
+position: relative;
+top: -60rem;
+left: 58rem;
+border-top-left-radius: 137.8px;
+border-top-right-radius: 137.8px;
+border-bottom-right-radius: 137.8px;
+background-color: #00BEAE;
+}
+
+.hero-container__picture2{
+position: absolute;
+opacity: 1;
+top: -6rem;
+left: -4rem;
+border-bottom-right-radius: 144.97px;
+border-bottom-left-radius: 144.97px;
+}
+
+.hero-container__button2{
+    background-color: #FF9500;
+    width: 12.095rem;
+    height: 3.687rem;
 }

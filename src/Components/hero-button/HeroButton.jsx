@@ -7,6 +7,7 @@ export default function HeroButton(
     text, 
     variant="default", 
     className='', 
+    onclick={},
     ...rest}) {
   return (
     <>
