@@ -1,4 +1,4 @@
-import './pageHeader.css';
+import './PageHeader.css';
 import English from '../..//assets/Logos/english.svg';
 import Facebook from '../..//assets/Logos/facebook.svg';
 import Twitter from '../..//assets/Logos/twitter.svg';
