@@ -1,9 +1,9 @@
 import './pageHeader.css';
-import English from '../../assets/Logos/english.svg';
-import Facebook from '../../assets/Logos/facebook.svg';
-import Twitter from '../../assets/Logos/twitter.svg';
-import Skype from '../../assets/Logos/skype.svg';
-import LinkedIn from '../../assets/Logos/LinkedIn.svg';
+import English from '../..//assets/Logos/english.svg';
+import Facebook from '../..//assets/Logos/facebook.svg';
+import Twitter from '../..//assets/Logos/twitter.svg';
+import Skype from '../..//assets/Logos/skype.svg';
+import LinkedIn from '../..//assets/Logos/LinkedIn.svg';
 
 export default function PageHearder() {
   return (

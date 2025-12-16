@@ -9,7 +9,6 @@ import HeroButton from "../hero-button/HeroButton";
 import KidPicture2 from '../..//assets/Images/kid-picture2.svg';
 import Watch from '../..//assets/Images/watch.svg';
 import YellowLayout from '../..//assets/Images/yellow-layout.svg';
-import GroupedPicture from '../..//assets/Images/grouped-picture.svg';
 import { useNavigate} from 'react-router-dom' ;
 
 export default function HeroPage() {
@@ -63,7 +62,6 @@ export default function HeroPage() {
        <HeroButton
           number="10K"
           text="Student"
-          img={GroupPicture}
           className=""
           variant="default"
         />
