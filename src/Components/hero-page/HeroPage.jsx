@@ -59,12 +59,6 @@ export default function HeroPage() {
       className="yellow-layout"
       />
 
-       <HeroButton
-          number="10K"
-          text="Student"
-          className=""
-          variant="default"
-        />
         <img
           src={Cancel}
           alt="cancel-icon"
