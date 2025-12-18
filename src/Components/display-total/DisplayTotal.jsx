@@ -14,6 +14,7 @@ export default function DisplayTotal({
             <img 
                 src={img}
                 alt="Total Image"
+                className='total-wrapper__img'
             />
         </div>
        <div>
