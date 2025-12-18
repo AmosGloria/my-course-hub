@@ -1,3 +1,4 @@
+
 .total-img-wrapper{
 width: 78px;
 height: 78px;
@@ -7,6 +8,28 @@ left: 417px;
 border-radius: 39px;
 background-color: #FC9F0B;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
+}
+
+.total-wrapper__number{
+font-family: 'Epilogue';
+font-weight: 700;
+font-size: 39px;
+line-height: 39px;
+text-align: center;
+text-transform: capitalize;
+color:#0E2A46;
+}
+
+.total-wrapper__description{
+font-family: 'Sora';
+font-weight: 400;
+font-size: 21px;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color:#0E2A46
 }

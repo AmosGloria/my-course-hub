@@ -1,25 +1,25 @@
 import React from 'react'
+import './DisplayTotal.css'
 
 export default function DisplayTotal({
     img,
     number,
     description,
     variant,
-     className="",
+    className = "", 
 }) {
   return (
-    <>
-    <div>
+    <div className={`total-wrapper ${className}`}>
         <div className='total-img-wrapper'>
             <img 
-            src={img}
-            alt=""
+                src={img}
+                alt="Total Image"
             />
         </div>
-        <p>{number}</p>
-        <p>{description}</p>
+       <div>
+         <p className='total-wrapper__number'>{number}</p>
+        <p className='total-wrapper__description'>{description}</p>
+       </div>
     </div>
-    </>
-
   )
 }

@@ -15,6 +15,10 @@ import CourseInfoImg from "../..//assets/Images/course-info-img.svg";
 import KidPicture3 from "../..//assets/Images/kid-picture3.svg";
 import KidPicture4 from "../..//assets/Images/kid-picture4.svg";
 import RedCircle from "../..//assets/Images/red-circle.svg";
+import DisplayTotalImg from "../..//assets/Images/display-total-img.svg";
+import TotalStudentImg from "../..//assets/Images/total-student-img.svg";
+import TotalSClassroomImg from "../..//assets/Images/total-classroom-img.svg";
+import BestAwardsImg from "../..//assets/Images/best-awards-img.svg";
 import HeroButton from "../hero-button/HeroButton";
 import SchoolInfo from "../school-info/SchoolInfo";
 import LearningImgWrapper from "../learning-img-wrapper/LearningImgWrapper";
@@ -101,7 +105,7 @@ export default function HeroPage() {
           />
         </div>
 
-        <div className="course-info"> 
+        <div className="course-info">
           <CourseInfo
             img={CourseInfoImg}
             heading="Start Course"
@@ -110,7 +114,7 @@ export default function HeroPage() {
                         nulla pariatur. Excepteur"
             className="course-info-container__courseInfo"
           />
-               <CourseInfo
+          <CourseInfo
             img={CourseInfoImg}
             heading="Start Course"
             description="Duis aute irure dolor reprehenderit in
@@ -119,7 +123,7 @@ export default function HeroPage() {
             className="course-info-container__img-container--primary"
           />
 
-                <CourseInfo
+          <CourseInfo
             img={CourseInfoImg}
             heading="Start Course"
             description="Duis aute irure dolor reprehenderit in
@@ -129,72 +133,72 @@ export default function HeroPage() {
           />
         </div>
         <div className="hero-container__about-us">
-          <img
-          src={YellowLayout}/>
+          <img src={YellowLayout} />
           <div className="hero-container__about-us-container">
-          <div className="hero-container__about-us__wrapper">
-                <HeroButton
-          number="Happy"
-          text="Student"
-          img={GroupedPicture}
-          className="hero-button--light hero-container__btn about-us"
-          variant="default"
-        />
-          <img
-          src={KidPicture3}
-          className="hero-container__about-us__wrapper__kid-picture3"/>
-          <img
-          src={KidPicture4}
-          className="hero-container__about-us__wrapper__kid-picture4"/>
-          <img
-           src={RedCircle}
-           className="hero-container__about-us__red-circle"
-           />
-            <img
-           src={RedCircle}
-           className="hero-container__about-us__red-circle2"
-           />
-          </div>
-          <div className="hero-container__about-us-info">
-            <h1 className="hero-container__about-us-heading">
-              <img 
-              src={AboutUsImg}
+            <div className="hero-container__about-us__wrapper">
+              <HeroButton
+                number="Happy"
+                text="Student"
+                img={GroupedPicture}
+                className="hero-button--light hero-container__btn about-us"
+                variant="default"
               />
-              about us</h1>
-              <h2 className="hero-container__about-us-heading2">It's our passion to work with
-                  children at 
-                  <span>kindergarten.</span>
+              <img
+                src={KidPicture3}
+                className="hero-container__about-us__wrapper__kid-picture3"
+              />
+              <img
+                src={KidPicture4}
+                className="hero-container__about-us__wrapper__kid-picture4"
+              />
+              <img
+                src={RedCircle}
+                className="hero-container__about-us__red-circle"
+              />
+              <img
+                src={RedCircle}
+                className="hero-container__about-us__red-circle2"
+              />
+            </div>
+            <div className="hero-container__about-us-info">
+              <h1 className="hero-container__about-us-heading">
+                <img src={AboutUsImg} />
+                about us
+              </h1>
+              <h2 className="hero-container__about-us-heading2">
+                It's our passion to work with children at
+                <span>kindergarten.</span>
               </h2>
-              <p className="hero-container__about-us_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud..</p>
-                <div className="hero-container__about-us__school-info-box">
-                  <SchoolInfo
-                info='QUALITY EDUCATIORS'/>
-                <SchoolInfo
-                info='PLAY TO LEARN'/>
-                     <SchoolInfo
-                info='SAFETY AND SECURITY'/>
-                <SchoolInfo
-                info='HOMELIKE ENVIROMEND'
-                />
-                </div>
+              <p className="hero-container__about-us_details">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud..
+              </p>
+              <div className="hero-container__about-us__school-info-box">
+                <SchoolInfo info="QUALITY EDUCATIORS" />
+                <SchoolInfo info="PLAY TO LEARN" />
+                <SchoolInfo info="SAFETY AND SECURITY" />
+                <SchoolInfo info="HOMELIKE ENVIROMEND" />
+              </div>
+            </div>
           </div>
-          </div>
-           <HeroButton
+          <HeroButton
             text="Admission Open"
             className="hero-container__button2 shool-info-btn"
             variant="primary"
-        
-        />
-        </div>
-          <img
-          src={Flower}
-          className="hero-container__about-us__flower"/>
-          <LearningImgWrapper/>
-          <DisplayTotal
-          number="2500"
           />
+        </div>
+        <img src={Flower} className="hero-container__about-us__flower" />
+        <LearningImgWrapper />
+       <div className="display-total-wrapper">
+         <DisplayTotal img={DisplayTotalImg} number="2500" description="Total Teacher"/>
+         <div className="divider"></div>
+         <DisplayTotal img={TotalStudentImg} number="5000" description="Total Student"/>
+          <div className="divider"></div>
+         <DisplayTotal img={TotalSClassroomImg} number="350" description="Total Classroom"/>
+          <div className="divider"></div>
+          <DisplayTotal img={BestAwardsImg} number="1200" description="Best Awards Won"/>
+       </div>
       </section>
     </>
   );

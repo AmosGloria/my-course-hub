@@ -348,3 +348,19 @@ position: relative;
 left: 767px;
 top: -130px;
 }
+
+.display-total-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+    top:-908px
+}
+
+
+.divider{
+    width: 1px;
+    height: 220px;
+    background-color: #4D5756;
+}
