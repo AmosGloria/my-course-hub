@@ -3,4 +3,5 @@
 body{
   box-sizing: border-box;
   font-family: 'Inter', 'Times New Roman', sans-serif, 'Epilogue', 'Sora';
+  max-width: 1366px;
 }
