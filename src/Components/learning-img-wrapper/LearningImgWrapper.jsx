@@ -14,8 +14,6 @@ export default function LearningImgWrapper() {
          alt="background" 
          className='learning-img-wrapper__image2'/>
     </div>
-    
-
     </div>
   );
 }

@@ -18,6 +18,7 @@ import RedCircle from "../..//assets/Images/red-circle.svg";
 import AboutUsImg from "../..//assets/Images/about-us-img.svg";
 import SchoolInfoBox from "../school-info-box/schoolInfoBox";
 import LearningImgWrapper from "../learning-img-wrapper/LearningImgWrapper";
+import DisplayTotal from "../display-total/DisplayTotal";
 import { useNavigate } from "react-router-dom";
 
 export default function HeroPage() {
@@ -191,6 +192,9 @@ export default function HeroPage() {
           src={Flower}
           className="hero-container__about-us__flower"/>
           <LearningImgWrapper/>
+          <DisplayTotal
+          number="2500"
+          />
       </section>
     </>
   );

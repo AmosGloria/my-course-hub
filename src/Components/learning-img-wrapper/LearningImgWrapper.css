@@ -2,19 +2,14 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  height: auto;
+  height: 980px;
   opacity: 1;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  top:-700px;
-}
-
-
-.learning-img-wrapper__image2{
-  position: relative; 
+  top:-1020px;
 }
 
 
@@ -22,8 +17,9 @@
  width: 1120px;
 height: 550px;
 opacity: 1;
-top: 120px;
+top: 420px;
 left: 100px;
 border-radius: 50px;
 position: absolute;
+z-index: 80;
 } 
