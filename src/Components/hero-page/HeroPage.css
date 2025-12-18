@@ -157,6 +157,7 @@ border-bottom-left-radius: 144.97px;
 }
 
 .hero-container__button2{
+    font-family: 'Sora', sans-serif;
     background-color: #FF9500;
     width: 12.095rem;
     height: 3.687rem;
@@ -186,4 +187,164 @@ height: 40px;
 top: -13px;
 left: 18.21px;
 position: relative;
+}
+
+.course-info{
+    display: flex;
+    gap: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-items: center;
+}
+
+.course-info-container__courseInfo{
+    background-color: #F3F5F5;
+}
+
+.hero-container__about-us{
+    width: 1220px;
+    height: 690px;
+    top: -758px;
+    position: relative;
+}
+
+.hero-container__about-us__flower{
+position: relative;
+width: 327px;
+height: 120px;
+left:1020px;
+top:-830px;
+rotate: 2deg;
+opacity: 1;
+display: flex;
+transform: scaleX(-1);
+}
+
+.hero-button--light.hero-container__btn.about-us{
+width: 339px;
+height: 94px;
+top: -25.59px;
+left: 270px;
+position: absolute;
+border-radius: 1000px;
+box-shadow: 0px 0px 20px 0px #02347526;
+z-index: 50;
+}
+
+.hero-container__about-us__wrapper{
+position: relative;
+left: -158px;
+}
+
+.hero-button--light.hero-container__btn.about-us:nth-child(1){
+    color: white;
+}
+
+.hero-container__about-us-container{
+    display: flex;
+}
+
+.hero-container__about-us__red-circle{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: -385.66px;
+    left: -214.38px;
+    opacity: 1;
+
+}
+
+.hero-container__about-us__wrapper__kid-picture3{
+position: relative;
+width: 227px;
+height: 413px;
+top: 21.19px;
+left: 316px;
+opacity: 1;
+border-radius: 100px;
+
+}
+
+.hero-container__about-us__wrapper__kid-picture4{
+width: 314px;
+height: 570px;
+left: 339px;
+top: -96px;
+position: relative;
+opacity: 1;
+border-radius: 100px;
+
+}
+
+.hero-container__about-us__red-circle2{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: -635.66px;
+    left: 304.38px;
+    opacity: 1;
+
+}
+
+.hero-container__about-us-info{
+    position: relative;
+    left: 160px;
+    top: -120px;
+}
+
+.hero-container__about-us-heading{
+font-family: 'Sora';
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #FF9500;
+
+}
+
+.hero-container__about-us-heading2{
+width: 605px;
+height: 117px;
+opacity: 1;
+font-family: 'Epilogue';
+font-weight: 700;
+font-style: Bold;
+font-size: 45px;
+line-height: 58.5px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: capitalize;
+
+}
+
+.hero-container__about-us-heading2 span{
+    color:#FF9500;
+    margin-left: 8px;
+}
+
+.hero-container__about-us_details{
+width: 600.36px;
+height: 96.90px;
+top: 191.9px;
+left: 937px;
+opacity: 1;
+font-family: 'Sora';
+font-weight: 400;
+font-size: 17px;
+line-height: 32.3px;
+letter-spacing: 0%;
+}
+
+.hero-container__about-us__school-info-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+     grid-row-gap: 20px;
+}
+
+.hero-container__button2.shool-info-btn{
+position: relative;
+left: 767px;
+top: -130px;
 }

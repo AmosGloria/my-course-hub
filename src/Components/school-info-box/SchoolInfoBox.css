@@ -1,0 +1,23 @@
+.school-info-box{
+background-color: #F3F5F5;
+width: 276.94px;
+height: 54px;
+opacity: 1;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.school-info-box p{
+width: 197.13px;
+height: 32px;
+top: 10.5px;
+font-family: 'Sora';
+font-weight: 400;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: 0%;
+text-transform: capitalize;
+white-space: nowrap;
+}
