@@ -16,7 +16,7 @@ import KidPicture3 from "../..//assets/Images/kid-picture3.svg";
 import KidPicture4 from "../..//assets/Images/kid-picture4.svg";
 import RedCircle from "../..//assets/Images/red-circle.svg";
 import HeroButton from "../hero-button/HeroButton";
-import SchoolInfoBox from "../school-info-box/SchoolInfoBox";
+import SchoolInfo from "../school-info/SchoolInfo";
 import LearningImgWrapper from "../learning-img-wrapper/LearningImgWrapper";
 import DisplayTotal from "../display-total/DisplayTotal";
 import { useNavigate } from "react-router-dom";
@@ -169,13 +169,13 @@ export default function HeroPage() {
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam, quis nostrud..</p>
                 <div className="hero-container__about-us__school-info-box">
-                  <SchoolInfoBox
+                  <SchoolInfo
                 info='QUALITY EDUCATIORS'/>
-                <SchoolInfoBox
+                <SchoolInfo
                 info='PLAY TO LEARN'/>
-                     <SchoolInfoBox
+                     <SchoolInfo
                 info='SAFETY AND SECURITY'/>
-                <SchoolInfoBox
+                <SchoolInfo
                 info='HOMELIKE ENVIROMEND'
                 />
                 </div>

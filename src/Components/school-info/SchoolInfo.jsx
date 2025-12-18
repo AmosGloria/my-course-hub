@@ -1,5 +1,5 @@
 import React from 'react'
-import './SchoolInfoBox.css';
+import './SchoolInfo.css';
 import SchoolInfoBoxImg from "../..//assets/Images/school-info-box.svg";
 
 export default function SchoolInfoBox({img, info}) {

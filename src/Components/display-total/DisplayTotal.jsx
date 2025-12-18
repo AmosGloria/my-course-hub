@@ -8,8 +8,9 @@ export default function DisplayTotal({
      className="",
 }) {
   return (
+    <>
     <div>
-        <div className='total-wrapper'>
+        <div className='total-img-wrapper'>
             <img 
             src={img}
             alt=""
@@ -18,5 +19,7 @@ export default function DisplayTotal({
         <p>{number}</p>
         <p>{description}</p>
     </div>
+    </>
+
   )
 }
